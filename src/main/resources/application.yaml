@@ -1,0 +1,12 @@
+server:
+  port: 0
+
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/auto_coin
+    username: root
+    password: k76639950
+mybatis:
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: com.inho.autocoinflow.domain
+
