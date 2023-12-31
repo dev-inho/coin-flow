@@ -1,4 +1,4 @@
-package com.inho.autocoinflow.util;
+package com.inho.autocoinflow.common.util;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
