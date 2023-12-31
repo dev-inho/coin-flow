@@ -51,13 +51,13 @@ public class UpBitConfiguration {
      */
     @PostConstruct
     private void init() {
-        if (secretKey == null) throw new NotFoundSecretKey();
-        if (accessKey == null) throw new NotFoundAccessKey();
+        if (secretKey == null || secretKey.trim().isEmpty()) throw new NotFoundSecretKey();
+        if (accessKey == null || accessKey.trim().isEmpty()) throw new NotFoundAccessKey();
 
-        logger.info("================================================");
+        logger.info("=================================================================================");
         logger.info("               secretKey : {}", secretKey);
         logger.info("               accessKey : {}", accessKey);
-        logger.info("================================================");
+        logger.info("=================================================================================");
     }
 
 }

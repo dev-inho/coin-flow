@@ -1,10 +1,12 @@
-package com.inho.autocoinflow.purchaseLog;
+package com.inho.autocoinflow.purchaseLog.domain;
 
 import com.inho.autocoinflow.common.domain.BaseEntity;
+import lombok.ToString;
 
 /**
  * 매입
  */
+@ToString(callSuper = true)
 public class PurchaseLog extends BaseEntity {
 
     /**

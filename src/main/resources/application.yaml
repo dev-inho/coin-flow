@@ -1,13 +1,21 @@
+### Server Info ###
 server:
   port: 0
 
+### Spring Info ###
 spring:
   datasource:
     url: jdbc:mariadb://localhost:3306/auto_coin
     username: root
     password: k76639950
+
+### MyBatis Info ###
 mybatis:
   mapper-locations: classpath:mappers/*.xml
   type-aliases-package: com.inho.autocoinflow.purchaseLog.domain, com.inho.autocoinflow.tradeLog.domain
 
+### Logging Info ###
+logging:
+  level:
+    org.apache.ibatis: INFO
 

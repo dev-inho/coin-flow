@@ -1,8 +1,7 @@
 package com.inho.autocoinflow.purchaseLog.mapper;
 
-import com.inho.autocoinflow.purchaseLog.PurchaseLog;
+import com.inho.autocoinflow.purchaseLog.domain.PurchaseLog;
 import com.inho.autocoinflow.purchaseLog.dto.PurchaseLogDTO;
-import com.inho.autocoinflow.tradeLog.dto.TradeLogDTO;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
